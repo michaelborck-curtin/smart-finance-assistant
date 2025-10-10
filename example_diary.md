@@ -12,9 +12,11 @@ This file shows sample entries for your **Developer's Diary**. You must document
 ## Foundation Skills Examples
 
 ### Entry 1 – Effective AI Prompting for Business Data
+22132972@student.curtin.edu.au
 **Artifact:** Screenshot of ChatGPT conversation about analyzing spending data.
 
 **My Initial Prompt:** "Help me analyze CSV data with pandas"
+Write a Python function that ends 
 
 **My Improved Prompt:** "I'm building a Smart Finance Assistant. I have a CSV with Date, Amount, Category, Description columns. The Amount has dollar signs that need cleaning. I want to calculate total spending by category and format results for a business presentation. Please write pandas code with clear comments."
 
