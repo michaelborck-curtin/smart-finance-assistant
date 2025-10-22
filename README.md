@@ -2,6 +2,11 @@
 
 Welcome to your project repository for the **ISYS2001 Final Programming Project**. This repo provides a starting point for building your **Smart Finance Assistant**.
 
+Author: Mir Yashfeen Ali (22132972)
+Course - ISYS2001 
+Instructor - Michael Borck
+Instituion - Curtin University
+
 ---
 
 ## 📖 Project Overview
@@ -19,20 +24,21 @@ Your Assistant should include:
 
 ---
 
+The technical requirements: Jupyter Notebook/Python/Hands on AI/Colab/Pandas 
 ## 📂 Suggested Repo Layout
-You may adapt this structure or create your own. Clarity and organisation are graded in the rubric.
+The key features are
+CSV cleaning with business error messages
+To check on spending analysis along with the category 
+An AI generated tool that helps with savings
+A functional chatbot that converses
+Tools to check for saving and clearing currencies.
+A testing module that is automated
 
 ```
-/README.md            ← this file
-/assignment.pdf       ← official assignment specification
-/starter_notebook.ipynb  ← scaffold notebook with six-step method
-/example_diary.md     ← sample Developer’s Diary entries
-/data/                ← your CSVs or sample datasets
-/tests/               ← your test scripts or asserts
-/ai-conversations/    ← weekly AI Evidence Packages (screenshots, notes)
-/docs/                ← pseudocode, design notes, planning docs
-```
-
+Example Output: 20 Transactions
+Top Category: Groceries (420)
+Overspending Category Entertainment
+Suggestion: Reduce Dining 
 ---
 
 ## 🚀 Getting Started
@@ -71,13 +77,23 @@ You may adapt this structure or create your own. Clarity and organisation are gr
 
 For the full rubric, see `assignment.pdf`.
 
----
+Testing Summary of the assignment:
+
+Module	Function	Result
+Load Data	load_and_clean_transaction_data()	✅ Pass
+Analyze	analyze_spending_patterns()	✅ Pass
+Recommend	generate_financial_recommendations()	✅ Pass
+Chatbot	finance_chatbot()	✅ Pass
+Integration	full_system_test()	✅ Pass
 
 ## 📚 Resources
 
-- **hands-on-ai Package**: [GitHub Repository](https://github.com/michael-borck/hands-on-ai)
-- **Documentation**: [DeepWiki Guide](https://deepwiki.com/michael-borck/hands-on-ai)
-- **For AI Assistants**: Share [this LLM context file](https://github.com/michael-borck/hands-on-ai/blob/main/LLM.txt) with ChatGPT/Claude/Copilot for better code suggestions
+smart-finance-assistant/
+├── data/
+│   └── sample_transactions.csv
+├── starter_notebook.ipynb
+├── developer_diary.md
+└── README.md
 
 ---
 
